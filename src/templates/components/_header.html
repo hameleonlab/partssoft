@@ -1,0 +1,79 @@
+<header class="header">
+  <div class="header__top">
+    <div class="container">
+      <div class="header__burger">
+        <img src="img/burger.svg" alt="burger">
+      </div>
+      <div class="header__logo">
+        ЛОГОТИП
+      </div>
+      @@include("_header-actions.html")
+
+      @@include("_header-location.html")
+
+
+      <nav class="header__nav">
+
+        @@include("_header-location.html")
+
+        <ul class="header-nav">
+          <li class="header-nav__item header-nav__item_dropdown">
+            <a href="#">О нас</a>
+            <ul class="dropdown-menu">
+              <li class="dropdown-menu__item">
+                <a href="#">О компании</a>
+              </li>
+            </ul>
+          </li>
+          <li class="header-nav__item header-nav__item_dropdown">
+            <a href="#">Клиентам</a>
+            <ul class="dropdown-menu">
+              <li class="dropdown-menu__item">
+                <a href="#">Доставка и оплата</a>
+              </li>
+              <li class="dropdown-menu__item">
+                <a href="#">О компании</a>
+              </li>
+              <li class="dropdown-menu__item">
+                <a href="#">Оплата</a>
+              </li>
+              <li class="dropdown-menu__item">
+                <a href="#">Гарантия</a>
+              </li>
+              <li class="dropdown-menu__item">
+                <a href="#">Возврат</a>
+              </li>
+            </ul>
+          </li>
+          <li class="header-nav__item">
+            <a href="#">Vin запррос</a>
+          </li>
+        </ul>
+
+        <div class="header__address">
+          ул. 50 летия ВЛКСМ 5а 312
+        </div>
+      </nav>
+      <div class="header__phone">
+        <a href="tel:+74951289560">+7 (495) 128-95-60</a>
+      </div>
+    </div>
+  </div>
+  <div class="header__bottom">
+    <div class="container">
+      <div class="header__logo">
+        ЛОГОТИП
+      </div>
+      <div class="header__search">
+        <form action="#">
+          <div class="header-search">
+            <input type="text" name="oem" id="oem" class="header-search__input" placeholder="Поиск">
+            <button class="header-search__btn"></button>
+            <a href="#" class="header-search__fast-link">Щетки стеклоочистителя</a>
+          </div>
+        </form>
+      </div>
+      @@include("_header-actions.html")
+    </div>
+  </div>
+</header>

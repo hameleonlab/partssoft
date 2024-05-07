@@ -1,0 +1,20 @@
+.page-content {
+    padding-top: 52px;
+    padding-bottom: 219px;
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    flex-grow: 1;
+    box-shadow: 3px 3px 30px 0 rgba(0, 0, 0, 0.1);
+    background: var(--color-white);
+
+    @media (max-width: 1024px) {
+        padding-bottom: 242px;
+    }
+
+    @media (max-width: 800px) {
+        padding-top: 49px;
+        gap: 37px;
+        padding-bottom: 237px;
+    }
+}

@@ -1,0 +1,38 @@
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    // .header-actions__item
+    &__item {
+        display: block;
+        position: relative;
+        width: 40px;
+        height: 40px;
+    }
+    // .header-actions__item-button
+    &__item-button {
+        width: 40px;
+        height: 40px;
+        background: var(--color-orange);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    // .header-actions__item-icon
+    &__item-icon {
+        position: absolute;
+        top: -6px;
+        right: -6.5px;
+        width: 21px;
+        height: 21px;
+        border-radius: 50%;
+        background: var(--color-white);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        line-height: 100%;
+    }
+}
