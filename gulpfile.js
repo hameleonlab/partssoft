@@ -8,7 +8,7 @@ import { fonts } from "./gulp/fonts.js";
 import { misc } from "./gulp/misc.js";
 import { scriptsDev, scriptsProd } from "./gulp/scripts.js";
 import { svg } from "./gulp/svg.js";
-import ghPages from 'gulp-gh-pages';
+import { ghpages } from "./gulp/ghpages.js";
 
 export const dev = gulp.series(
   clean,
@@ -25,7 +25,8 @@ export const prod = gulp.series(
 export const deploy = gulp.series(
   clean,
   gulp.parallel([html, stylesProd, imagesProd, fonts, misc, scriptsProd, svg]),
-  gulp.src('./dist/**/*').pipe(ghPages())
+  ghpages  
 );
+
 
 export default dev;
