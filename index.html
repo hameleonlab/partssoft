@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Главная страница сайта</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+
+<body class="page">
+  <div class="page__wrapper">
+
+    <header class="header">
+      <div class="header__top">
+        <div class="container">
+          <div class="header__burger">
+            <img src="img/burger.svg" alt="burger">
+          </div>
+          <div class="header__logo">
+            ЛОГОТИП
+          </div>
+          <div class="header__actions header-actions">
+            <a href="#" class="header-actions__item">
+              <div class="header-actions__item-button">
+                <img src="img/cart.svg" alt="cart">
+              </div>
+              <div class="header-actions__item-icon">
+                0
+              </div>
+            </a>
+            <a href="#" class="header-actions__item">
+              <div class="header-actions__item-button">
+                <img src="img/profile.svg" alt="profile">
+              </div>
+              <div class="header-actions__item-icon">
+                <img src="img/in.svg" alt="in">
+              </div>
+            </a>
+          </div>
+
+          <a href="#" class="header__location header-location">
+            <div class="header-location__icon">
+              <img src="img/location.svg" alt="location">
+            </div>
+            <div class="header-location__title">г. Королев</div>
+          </a>
+
+
+          <nav class="header__nav">
+
+            <a href="#" class="header__location header-location">
+              <div class="header-location__icon">
+                <img src="img/location.svg" alt="location">
+              </div>
+              <div class="header-location__title">г. Королев</div>
+            </a>
+
+            <ul class="header-nav">
+              <li class="header-nav__item header-nav__item_dropdown">
+                <a href="#">О нас</a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-menu__item">
+                    <a href="#">О компании</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header-nav__item header-nav__item_dropdown">
+                <a href="#">Клиентам</a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-menu__item">
+                    <a href="#">Доставка и оплата</a>
+                  </li>
+                  <li class="dropdown-menu__item">
+                    <a href="#">О компании</a>
+                  </li>
+                  <li class="dropdown-menu__item">
+                    <a href="#">Оплата</a>
+                  </li>
+                  <li class="dropdown-menu__item">
+                    <a href="#">Гарантия</a>
+                  </li>
+                  <li class="dropdown-menu__item">
+                    <a href="#">Возврат</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header-nav__item">
+                <a href="#">Vin запррос</a>
+              </li>
+            </ul>
+
+            <div class="header__address">
+              ул. 50 летия ВЛКСМ 5а 312
+            </div>
+          </nav>
+          <div class="header__phone">
+            <a href="tel:+74951289560">+7 (495) 128-95-60</a>
+          </div>
+        </div>
+      </div>
+      <div class="header__bottom">
+        <div class="container">
+          <div class="header__logo">
+            ЛОГОТИП
+          </div>
+          <div class="header__search">
+            <form action="#">
+              <div class="header-search">
+                <input type="text" name="oem" id="oem" class="header-search__input" placeholder="Поиск">
+                <button class="header-search__btn"></button>
+                <a href="#" class="header-search__fast-link">Щетки стеклоочистителя</a>
+              </div>
+            </form>
+          </div>
+          <div class="header__actions header-actions">
+            <a href="#" class="header-actions__item">
+              <div class="header-actions__item-button">
+                <img src="img/cart.svg" alt="cart">
+              </div>
+              <div class="header-actions__item-icon">
+                0
+              </div>
+            </a>
+            <a href="#" class="header-actions__item">
+              <div class="header-actions__item-button">
+                <img src="img/profile.svg" alt="profile">
+              </div>
+              <div class="header-actions__item-icon">
+                <img src="img/in.svg" alt="in">
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+
+      <div class="container page-content">
+        <section class="section section_spec">
+          <h2 class="section__title">Спецпредложения</h2>
+
+          <div class="carusel">
+            <div class="product-card">
+              <div class="product-card__img">
+                <img src="img/product001.jpg" alt="product001">
+              </div>
+              <div class="product-card__content">
+                <div class="product-card__title">
+                  Шланг радиатора OPEL VECTRA C 1.8 COMFORT 81 кВт
+                </div>
+                <div class="product-card__params">
+                  <div class="product-card__param">
+                    <div class="product-card__param-label">
+                      Номер:
+                    </div>
+                    <div class="product-card__param-val">
+                      Тут номер
+                    </div>
+                  </div>
+                  <div class="product-card__param">
+                    <div class="product-card__param-label">
+                      Бренд:
+                    </div>
+                    <div class="product-card__param-val">
+                      Название бренда
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card__actions">
+                <div class="product-card__price">
+                  10 000 р.
+                </div>
+                <button class="btn product-card__button-buy">Купить</button>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-card__img">
+                <img src="img/product001.jpg" alt="product001">
+              </div>
+              <div class="product-card__content">
+                <div class="product-card__title">
+                  Шланг радиатора OPEL VECTRA C 1.8 COMFORT 81 кВт
+                </div>
+                <div class="product-card__params">
+                  <div class="product-card__param">
+                    <div class="product-card__param-label">
+                      Номер:
+                    </div>
+                    <div class="product-card__param-val">
+                      Тут номер
+                    </div>
+                  </div>
+                  <div class="product-card__param">
+                    <div class="product-card__param-label">
+                      Бренд:
+                    </div>
+                    <div class="product-card__param-val">
+                      Название бренда
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card__actions">
+                <div class="product-card__price">
+                  10 000 р.
+                </div>
+                <button class="btn product-card__button-buy">Купить</button>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-card__img">
+                <img src="img/product001.jpg" alt="product001">
+              </div>
+              <div class="product-card__content">
+                <div class="product-card__title">
+                  Шланг радиатора OPEL VECTRA C 1.8 COMFORT 81 кВт
+                </div>
+                <div class="product-card__params">
+                  <div class="product-card__param">
+                    <div class="product-card__param-label">
+                      Номер:
+                    </div>
+                    <div class="product-card__param-val">
+                      Тут номер
+                    </div>
+                  </div>
+                  <div class="product-card__param">
+                    <div class="product-card__param-label">
+                      Бренд:
+                    </div>
+                    <div class="product-card__param-val">
+                      Название бренда
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card__actions">
+                <div class="product-card__price">
+                  10 000 р.
+                </div>
+                <button class="btn product-card__button-buy">Купить</button>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-card__img">
+                <img src="img/product001.jpg" alt="product001">
+              </div>
+              <div class="product-card__content">
+                <div class="product-card__title">
+                  Шланг радиатора OPEL VECTRA C 1.8 COMFORT 81 кВт
+                </div>
+                <div class="product-card__params">
+                  <div class="product-card__param">
+                    <div class="product-card__param-label">
+                      Номер:
+                    </div>
+                    <div class="product-card__param-val">
+                      Тут номер
+                    </div>
+                  </div>
+                  <div class="product-card__param">
+                    <div class="product-card__param-label">
+                      Бренд:
+                    </div>
+                    <div class="product-card__param-val">
+                      Название бренда
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card__actions">
+                <div class="product-card__price">
+                  10 000 р.
+                </div>
+                <button class="btn product-card__button-buy">Купить</button>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-card__img">
+                <img src="img/product001.jpg" alt="product001">
+              </div>
+              <div class="product-card__content">
+                <div class="product-card__title">
+                  Шланг радиатора OPEL VECTRA C 1.8 COMFORT 81 кВт
+                </div>
+                <div class="product-card__params">
+                  <div class="product-card__param">
+                    <div class="product-card__param-label">
+                      Номер:
+                    </div>
+                    <div class="product-card__param-val">
+                      Тут номер
+                    </div>
+                  </div>
+                  <div class="product-card__param">
+                    <div class="product-card__param-label">
+                      Бренд:
+                    </div>
+                    <div class="product-card__param-val">
+                      Название бренда
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card__actions">
+                <div class="product-card__price">
+                  10 000 р.
+                </div>
+                <button class="btn product-card__button-buy">Купить</button>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-card__img">
+                <img src="img/product001.jpg" alt="product001">
+              </div>
+              <div class="product-card__content">
+                <div class="product-card__title">
+                  Шланг радиатора OPEL VECTRA C 1.8 COMFORT 81 кВт
+                </div>
+                <div class="product-card__params">
+                  <div class="product-card__param">
+                    <div class="product-card__param-label">
+                      Номер:
+                    </div>
+                    <div class="product-card__param-val">
+                      Тут номер
+                    </div>
+                  </div>
+                  <div class="product-card__param">
+                    <div class="product-card__param-label">
+                      Бренд:
+                    </div>
+                    <div class="product-card__param-val">
+                      Название бренда
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card__actions">
+                <div class="product-card__price">
+                  10 000 р.
+                </div>
+                <button class="btn product-card__button-buy">Купить</button>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-card__img">
+                <img src="img/product001.jpg" alt="product001">
+              </div>
+              <div class="product-card__content">
+                <div class="product-card__title">
+                  Шланг радиатора OPEL VECTRA C 1.8 COMFORT 81 кВт
+                </div>
+                <div class="product-card__params">
+                  <div class="product-card__param">
+                    <div class="product-card__param-label">
+                      Номер:
+                    </div>
+                    <div class="product-card__param-val">
+                      Тут номер
+                    </div>
+                  </div>
+                  <div class="product-card__param">
+                    <div class="product-card__param-label">
+                      Бренд:
+                    </div>
+                    <div class="product-card__param-val">
+                      Название бренда
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card__actions">
+                <div class="product-card__price">
+                  10 000 р.
+                </div>
+                <button class="btn product-card__button-buy">Купить</button>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-card__img">
+                <img src="img/product001.jpg" alt="product001">
+              </div>
+              <div class="product-card__content">
+                <div class="product-card__title">
+                  Шланг радиатора OPEL VECTRA C 1.8 COMFORT 81 кВт
+                </div>
+                <div class="product-card__params">
+                  <div class="product-card__param">
+                    <div class="product-card__param-label">
+                      Номер:
+                    </div>
+                    <div class="product-card__param-val">
+                      Тут номер
+                    </div>
+                  </div>
+                  <div class="product-card__param">
+                    <div class="product-card__param-label">
+                      Бренд:
+                    </div>
+                    <div class="product-card__param-val">
+                      Название бренда
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card__actions">
+                <div class="product-card__price">
+                  10 000 р.
+                </div>
+                <button class="btn product-card__button-buy">Купить</button>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-card__img">
+                <img src="img/product001.jpg" alt="product001">
+              </div>
+              <div class="product-card__content">
+                <div class="product-card__title">
+                  Шланг радиатора OPEL VECTRA C 1.8 COMFORT 81 кВт
+                </div>
+                <div class="product-card__params">
+                  <div class="product-card__param">
+                    <div class="product-card__param-label">
+                      Номер:
+                    </div>
+                    <div class="product-card__param-val">
+                      Тут номер
+                    </div>
+                  </div>
+                  <div class="product-card__param">
+                    <div class="product-card__param-label">
+                      Бренд:
+                    </div>
+                    <div class="product-card__param-val">
+                      Название бренда
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card__actions">
+                <div class="product-card__price">
+                  10 000 р.
+                </div>
+                <button class="btn product-card__button-buy">Купить</button>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-card__img">
+                <img src="img/product001.jpg" alt="product001">
+              </div>
+              <div class="product-card__content">
+                <div class="product-card__title">
+                  Шланг радиатора OPEL VECTRA C 1.8 COMFORT 81 кВт
+                </div>
+                <div class="product-card__params">
+                  <div class="product-card__param">
+                    <div class="product-card__param-label">
+                      Номер:
+                    </div>
+                    <div class="product-card__param-val">
+                      Тут номер
+                    </div>
+                  </div>
+                  <div class="product-card__param">
+                    <div class="product-card__param-label">
+                      Бренд:
+                    </div>
+                    <div class="product-card__param-val">
+                      Название бренда
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card__actions">
+                <div class="product-card__price">
+                  10 000 р.
+                </div>
+                <button class="btn product-card__button-buy">Купить</button>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-card__img">
+                <img src="img/product001.jpg" alt="product001">
+              </div>
+              <div class="product-card__content">
+                <div class="product-card__title">
+                  Шланг радиатора OPEL VECTRA C 1.8 COMFORT 81 кВт
+                </div>
+                <div class="product-card__params">
+                  <div class="product-card__param">
+                    <div class="product-card__param-label">
+                      Номер:
+                    </div>
+                    <div class="product-card__param-val">
+                      Тут номер
+                    </div>
+                  </div>
+                  <div class="product-card__param">
+                    <div class="product-card__param-label">
+                      Бренд:
+                    </div>
+                    <div class="product-card__param-val">
+                      Название бренда
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card__actions">
+                <div class="product-card__price">
+                  10 000 р.
+                </div>
+                <button class="btn product-card__button-buy">Купить</button>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-card__img">
+                <img src="img/product001.jpg" alt="product001">
+              </div>
+              <div class="product-card__content">
+                <div class="product-card__title">
+                  Шланг радиатора OPEL VECTRA C 1.8 COMFORT 81 кВт
+                </div>
+                <div class="product-card__params">
+                  <div class="product-card__param">
+                    <div class="product-card__param-label">
+                      Номер:
+                    </div>
+                    <div class="product-card__param-val">
+                      Тут номер
+                    </div>
+                  </div>
+                  <div class="product-card__param">
+                    <div class="product-card__param-label">
+                      Бренд:
+                    </div>
+                    <div class="product-card__param-val">
+                      Название бренда
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card__actions">
+                <div class="product-card__price">
+                  10 000 р.
+                </div>
+                <button class="btn product-card__button-buy">Купить</button>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <section class="section section_bordered">
+          <h2 class="section__title">О компании</h2>
+
+          <div class="section__content">
+            <p>ООО "СпецАвтоПром" - компания, занимающаяся розничной продажей запчастей, расходных материалов,
+              аксессуаров и комплектующих для автомобилей иностранного производства. В нашем ассортименте продукция
+              ведущих европейских, корейских, японских марок, а так же большой выбор неоригинальных автомобильных
+              запчастей.</p>
+            <p>Мы предлагаем быстрый и удобный сервис по поиску, подбору и заказу необходимых вам запчастей, сезонную
+              систему скидок и максимально короткие сроки доставки.</p>
+          </div>
+        </section>
+
+      </div>
+
+
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__top">
+          <div class="footer__left-block">
+            <a href="/" class="footer__logo">
+              ЛОГОТИП
+            </a>
+            <div class="footer__soc">
+              <a href="#" class="footer__soc-item">
+                <img src="img/fb.svg" alt="fb">
+              </a>
+              <a href="#" class="footer__soc-item">
+                <img src="img/insta.svg" alt="insta">
+              </a>
+              <a href="#" class="footer__soc-item">
+                <img src="img/youtube.svg" alt="youtube">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          © Название компании Все права защищены
+        </div>
+      </div>
+    </footer>
+
+  </div>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
